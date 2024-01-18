@@ -37,5 +37,6 @@ print("\n")
 print("=======================Iterando emojis========================")
 # https://app.timwhitlock.info/emogi/tables/unicode
 for letra in range(3):
+    # o método range não não é inclusive
     for num in range(1, 11):
         print('\U0001F605' * num)
